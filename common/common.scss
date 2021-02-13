@@ -1,0 +1,110 @@
+// GLOBAL
+
+@media (min-width: 700px) and (max-width: 1600px){
+  #main-outlet.chat-active--left {
+    margin-left: auto;
+  }
+}
+
+.babble-sidebar,
+.babble-sidebar-collapsed {
+  transition: none;
+}
+
+.babble-sidebar {
+  width: 350px;
+}
+
+.babble-unread {
+  background: var(--danger-hover);
+}
+
+.babble-unread--sidebar {
+  box-shadow: none;
+}
+
+.babble-sidebar.babble-sidebar {
+    border-radius: 8px;
+}
+
+.babble-post-container .babble-post-actions-menu {
+  margin-left: -100px;
+}
+
+// BUTTON
+
+.babble-sidebar-collapsed--left,
+.babble-sidebar-collapsed--left .widget-button {
+    border-radius: 50px;
+    left: 10px;
+}
+
+.babble-sidebar-collapsed {
+    background: var(--tertiary, $tertiary) !important;
+}
+
+.babble-sidebar-collapsed .fa {
+    color: var(--vaperina-btn) !important;
+    font-size: $font-up-2;
+}
+
+// INSIDE
+
+.babble-sidebar {
+  background: var(--secondary, $secondary);
+}
+
+.babble-post-hr-message.babble-last-read,
+.babble-post-hr-message {
+  border-color: var(--tertiary, $tertiary);
+  color: #ffffff;
+  span {
+    background: var(--tertiary, $tertiary);  
+  }
+}
+
+.babble-pms-autocomplete input {
+  background: var(--secondary, secondary);
+  color: var(--primary, primary);
+}
+
+.babble-topic-avatar {
+  padding-bottom: 0;
+}
+
+.babble-post-container .babble-post-actions-menu {
+  background: transparent;
+  box-shadow: none;
+}
+
+[data-my-post=true] .babble-post-container .babble-post-content-wrapper {
+    background: var(--tertiary, $tertiary);
+}
+
+.babble-post-container .babble-post-content-wrapper {
+    background: var(--secondary-medium, $secondary-medium);
+}
+
+.babble-post-container .babble-post-explainer {
+    opacity: 0.8;
+    color: var(--secondary, $secondary);
+}
+
+.babble-available-topics a {
+    color: var(--primary, $primary);
+}
+
+.babble-post-cooked a {
+    color: var(--secondary, $secondary);
+    text-decoration: underline;
+}
+
+.babble-available-topic:hover {
+    background: var(--secondary-high, $secondary-high);
+}
+
+.babble-post-container .babble-post-name a,
+.babble-post-container .babble-post-date,
+.babble-post-container .babble-post-content-wrapper p {
+    color: var(--secondary, $secondary);
+}
