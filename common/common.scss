@@ -63,6 +63,10 @@
   }
 }
 
+.babble-post-hr-message>button span {
+  background: transparent;
+}
+
 .babble-pms-autocomplete input {
   background: var(--secondary, secondary);
   color: var(--primary, primary);
