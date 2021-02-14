@@ -68,8 +68,12 @@
 }
 
 .babble-pms-autocomplete input {
-  background: var(--secondary, secondary);
-  color: var(--primary, primary);
+  background: var(--secondary, $secondary);
+  color: var(--primary, $primary);
+}
+
+.babble-post-container .babble-post-content-wrapper a.mention {
+  color: var(--secondary-low, $secondary-low);
 }
 
 .babble-topic-avatar {
