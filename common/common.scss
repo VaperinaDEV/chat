@@ -6,6 +6,11 @@
   }
 }
 
+.babble-posts {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
 .babble-sidebar,
 .babble-sidebar-collapsed {
   transition: none;
