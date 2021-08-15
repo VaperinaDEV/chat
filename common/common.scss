@@ -45,7 +45,7 @@
 }
 
 .babble-sidebar-collapsed {
-    background: var(--tertiary, $tertiary) !important;
+    background: var(--tertiary) !important;
 }
 
 .babble-sidebar-collapsed .fa {
@@ -56,15 +56,15 @@
 // INSIDE
 
 .babble-sidebar {
-  background: var(--secondary, $secondary);
+  background: var(--secondary);
 }
 
 .babble-post-hr-message.babble-last-read,
 .babble-post-hr-message {
-  border-color: var(--tertiary, $tertiary);
+  border-color: var(--tertiary);
   color: #ffffff;
   span {
-    background: var(--tertiary, $tertiary);  
+    background: var(--tertiary);  
   }
 }
 
@@ -73,12 +73,12 @@
 }
 
 .babble-pms-autocomplete input {
-  background: var(--secondary, $secondary);
-  color: var(--primary, $primary);
+  background: var(--secondary);
+  color: var(--primary);
 }
 
 .babble-post-container .babble-post-content-wrapper a.mention {
-  color: var(--secondary-low, $secondary-low);
+  color: var(--secondary-low);
 }
 
 .babble-topic-avatar {
@@ -91,33 +91,33 @@
 }
 
 [data-my-post=true] .babble-post-container .babble-post-content-wrapper {
-    background: var(--tertiary, $tertiary);
+    background: var(--tertiary);
 }
 
 .babble-post-container .babble-post-content-wrapper {
-    background: var(--secondary-medium, $secondary-medium);
+    background: var(--secondary-medium);
 }
 
 .babble-post-container .babble-post-explainer {
     opacity: 0.8;
-    color: var(--secondary, $secondary);
+    color: var(--secondary);
 }
 
 .babble-available-topics a {
-    color: var(--primary, $primary);
+    color: var(--primary);
 }
 
 .babble-post-cooked a {
-    color: var(--secondary, $secondary);
+    color: var(--secondary);
     text-decoration: underline;
 }
 
 .babble-available-topic:hover {
-    background: var(--secondary-high, $secondary-high);
+    background: var(--secondary-high);
 }
 
 .babble-post-container .babble-post-name a,
 .babble-post-container .babble-post-date,
 .babble-post-container .babble-post-content-wrapper p {
-    color: var(--secondary, $secondary);
+    color: var(--secondary);
 }
